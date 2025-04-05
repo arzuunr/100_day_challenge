@@ -1,6 +1,6 @@
 # 101 Coding
 
-*Tips*
+## *Tips*
 
 -Book are good as references. If you want to dive deep into delegates and protocols read that chapter, when it comes to learning; hands on project is the best.
 
