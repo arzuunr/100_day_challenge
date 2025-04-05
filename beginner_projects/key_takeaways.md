@@ -39,3 +39,24 @@ print("Your name is: " + input("Name? "))
 # Pro pattern (immediate feedback):
 name = input("Name? ").strip()  # .strip() removes accidental whitespace
 print(f"Processed: {name.title()}")
+
+# Project 1: Band Name Generator
+welcome="Welcome to the Band Name Generator."
+print(welcome)
+name_city=input("What is the name of the city you grew up in? \n")
+name_pet=input("What is your pet's name? \n")
+print("Your band name could be " + name_city +" "+ name_pet)
+print("Your band name could be", name_city, name_pet)
+
+
+
+
+
+
+
+
+
+
+
+
+
