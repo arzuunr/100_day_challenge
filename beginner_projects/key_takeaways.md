@@ -47,8 +47,69 @@ name_city=input("What is the name of the city you grew up in? \n")
 name_pet=input("What is your pet's name? \n")
 print("Your band name could be " + name_city +" "+ name_pet)
 print("Your band name could be", name_city, name_pet)
+```
 
 
+### **Day 2: Python Data Types & Number Manipulation**  
+
+| Category               | Key Insights                                                                 | Pro Code Examples                          |
+|------------------------|-----------------------------------------------------------------------------|-------------------------------------------|
+| **Data Types**         | str, int, float, boolean `type()` reveals a variable's DNA. Underscores improve number readability.  | `1_000_000` (equals `1000000`)           |
+| **String Indexing**    | `"hello"[0]` → `'h'` (zero-based), `"hello"[-1]` → `'o'` (negative = from end) | `last_char = user_input[-1]`             |
+| **Type Conversion**    | Explicit conversion avoids `TypeError` but may cause `ValueError`            | `int("32")` ✅ vs `int("hello")` ❌       |
+| **Float Precision**    | Floating-point math is binary-based (IEEE 754). Use `round(,2)` for decimals and digit choosing option. For flooring use int() or //  | `round(3.14159, 2)` → `3.14`             |
+| **Boolean Truthiness** | All values implicitly convert to `bool`. Empty sequences = `False`.          | `bool("")` → `False`, `bool(" ")` → `True` |
+
+`
+
+# 🚨 Common Pitfalls
+# ValueError! 
+# TypeError!
+
+### **Number Theory Nuggets**
+```markdown
+1. **Why 0.1 + 0.2 ≠ 0.3?**  
+   - Binary floating-point can't precisely represent base-10 decimals  
+
+2. **Underscore Magic**  
+   ```python
+   # Legal in Python 3.6+ (ignored by interpreter)
+   bytes = 1_048_576  # More readable than 1048576
+   ```
+
+3. **String Slicing Pro Tip**  
+   ```python
+   user_id = "[USER:1532]"
+   # Get numbers between colons
+   id_num = int(user_id.split(":")[-1].rstrip("]")) 
+   ```
+```
+
+
+```python
+# Project 2: Tip Calculator
+print("Welcome to the tip calculator!")
+bill = float(input("What was the total bill? $"))
+tip_percentage = int(input("How much tip would you like to give? 10, 12, or 15? "))
+people = int(input("How many people to split the bill? "))
+finalize = round((bill * (1 + tip_percentage / 100 )) / people, 2 )
+print(f"Each person should pay ${finalize}")
+
+
+#Memory Usage on Different Data Types
+import sys
+
+print(sys.getsizeof(10))       # 28 bytes (int)
+print(sys.getsizeof(10.0))     # 24 bytes (float)
+print(sys.getsizeof("a"))      # 50 bytes (1-char string)
+print(sys.getsizeof([1,2,3]))  # 88 bytes (list overhead)
+
+class Compact:
+    __slots__ = ['x', 'y']  # Saves ~40% memory vs regular class
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+```
 
 
 
