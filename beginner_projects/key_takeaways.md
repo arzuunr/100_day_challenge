@@ -15,8 +15,6 @@
 -Always go with 2 screen. 
 
 ### **Day 1: Python Basics - Band Name Generator**  
-## 🔍 Key Takeaways (Structured for Muscle Memory)
-
 
 | Category              | Takeaways                                                                 | Code Example/Solution                          |
 |-----------------------|---------------------------------------------------------------------------|-----------------------------------------------|
@@ -32,6 +30,8 @@
 
 
 ### The Input/Print Power Duo
+### Project 1: Band Name Generator
+
 ```python
 # Anti-pattern (beginner):
 print("Your name is: " + input("Name? "))
@@ -40,7 +40,6 @@ print("Your name is: " + input("Name? "))
 name = input("Name? ").strip()  # .strip() removes accidental whitespace
 print(f"Processed: {name.title()}")
 
-# Project 1: Band Name Generator
 welcome="Welcome to the Band Name Generator."
 print(welcome)
 name_city=input("What is the name of the city you grew up in? \n")
@@ -62,9 +61,9 @@ print("Your band name could be", name_city, name_pet)
 
 `
 
-# 🚨 Common Pitfalls
-# ValueError! 
-# TypeError!
+### 🚨 Common Pitfalls
+**ValueError!** 
+**TypeError!**
 
 ### **Number Theory Nuggets**
 ```markdown
@@ -83,11 +82,11 @@ print("Your band name could be", name_city, name_pet)
    # Get numbers between colons
    id_num = int(user_id.split(":")[-1].rstrip("]")) 
    ```
-```
 
+
+### Project 2: Tip Calculator & Memory Usage on Different Data Types
 
 ```python
-# Project 2: Tip Calculator
 print("Welcome to the tip calculator!")
 bill = float(input("What was the total bill? $"))
 tip_percentage = int(input("How much tip would you like to give? 10, 12, or 15? "))
@@ -95,8 +94,6 @@ people = int(input("How many people to split the bill? "))
 finalize = round((bill * (1 + tip_percentage / 100 )) / people, 2 )
 print(f"Each person should pay ${finalize}")
 
-
-#Memory Usage on Different Data Types
 import sys
 
 print(sys.getsizeof(10))       # 28 bytes (int)
