@@ -1,10 +1,17 @@
-#101 Coding
+# 101 Coding
+
 *Tips*
+
 -Book are good as references. If you want to dive deep into delegates and protocols read that chapter, when it comes to learning; hands on project is the best.
+
 -Being a copycat if you have no idea for a project at first.
+
 -Find a code mentor.
+
 -There' always a bug.
+
 -Never a copy paste a code that you didnt undertsand completely.
+
 -Always go with 2 screen. 
 
 ### **Day 1: Python Basics - Band Name Generator**  
