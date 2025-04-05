@@ -8,35 +8,21 @@
 -Always go with 2 screen. 
 
 ### **Day 1: Python Basics - Band Name Generator**  
-**Key Concepts**  
+## 🔍 Key Takeaways (Structured for Muscle Memory)
+
 
 | Category              | Takeaways                                                                 | Code Example/Solution                          |
 |-----------------------|---------------------------------------------------------------------------|-----------------------------------------------|
 | **Printing**          | `print()` outputs text to console. Use f-strings for dynamic values.      | `print(f"Hello, {name}!")`                    |
 | **Input**            | `input()` captures user input (always returns a string).                  | `city = input("Your city: ")`                 |
 | **Variables**        | Store data with meaningful names. Python is dynamically typed.            | `pet_name = "Whiskers"`                       |
-| **String Manipulation** | Concatenate with `+` or `,` in `print()`. Format with f-strings.         | `print(city + " " + pet_name)`                |
+| **String Manipulation/Concatenation** | Concatenate with `+` or `,` in `print()`. Format with f-strings.         | `print(city + " " + pet_name)`                |
 | **Debugging**        | Common errors: `NameError` (undefined var), `SyntaxError` (typos).        | Fix: Check variable names/brackets.           |
 | **Indentation**      | Python uses indentation (4 spaces) for code blocks.                       | ```python<br>if True:<br>    print("Indented!")``` |
 | **Variable Swapping** | Pythonic way: `a, b = b, a`. No temp variable needed.                    | `x, y = y, x`                                |
 | **Comments**         | Use `#` for single-line explanations. Avoid obvious comments.             | `# Calculate total (avoid: "This adds x+y")`  |
 
-# Day 1: Band Name Generator - Core Python Mechanics
 
-> *"Master the fundamentals and the rest will follow."*  
-
-## 🔍 Key Takeaways (Structured for Muscle Memory)
-
-| Concept               | Professional Insight                                                                 | Code Example                          |
-|-----------------------|-------------------------------------------------------------------------------------|---------------------------------------|
-| **`print()`**         | Debugging workhorse. Use f-strings (Python 3.6+) for clean interpolation.           | `print(f"Debug: {variable=}")`       |
-| **`input()`**         | Always returns `str`. Chain with `int()`/`float()` for numeric input.               | `age = int(input("Age: "))`          |
-| **Variable Swap**     | Pythonic approach avoids temp vars. Works with any iterable.                        | `x, y = y, x`                        |
-| **String Concatenation** | `+` vs `,` in print: Know when each is appropriate (performance vs readability).  | `print("Hello", name, sep="")`       |
-| **Indentation**       | Not just syntax - defines execution blocks. Critical for control flow.              | ```python<br>if True:<br>    execute()``` |
-| **Debugging**         | **Top 3 Errors:**<br>1. `NameError` (scope/typo)<br>2. `SyntaxError` (indentation/brackets)<br>3. `TypeError` (str + int) | `except TypeError as e:` |
-
-## 💡 Pro Tips (What Tutorials Don't Teach)
 
 ### The Input/Print Power Duo
 ```python
