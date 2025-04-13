@@ -108,6 +108,72 @@ class Compact:
         self.y = y
 ```
 
+## Day 3: Conditional Statements & Logical Operators
+
+'''= Assignment
+== Checking
+'''
+
+Category | Key Concepts | Examples
+--- | --- | ---
+If/Else | Execute code blocks based on conditions | `if condition: do_this() else: do_that()`
+Comparison Operators | `>`, `<`, `>=`, `<=`, `==`, `!=` | `age >= 18` (check voting eligibility)
+Modulo Operator | Returns division remainder | `10 % 3` → `1` (useful for even/odd checks)
+Nested Conditionals | If statements inside other if statements | ```python<br>if x > 0:<br>    if y > 0: ...```
+Elif | Chain multiple conditions (getting inside one breaks everything) | `if...elif...elif...else`
+Multiple Ifs | Independent conditions (vs mutually exclusive elif) | Each if gets checked regardless of others
+Logical Operators | Combine conditions (`and`, `or`, `not`) | `if age >= 18 and has_id:`
+
+### Key Insights
+
+1. **Conditional Flow**:
+   
+   ```python
+   # Basic structure
+   if condition:
+       # code block
+   elif another_condition:
+       # code block  
+   else:
+       # default code
+   
+   choice = input("Yes/No? ").lower()  # Case-insensitive comparison
+
+2. **Treasure Island Project**:
+```python
+#ASCII Art Trick:
+print('''
+Art goes here
+ /\_/\
+( o.o )
+ > ^ <
+''')
+
+print("Welcome to Treasure Island.")
+print("Your mission is to find the treasure.")
+
+direction = input("You're at a cross road. Where do you want to go? Type \"left\" or \"right\". \n").lower()
+
+if direction == "left":
+    action = input("You've come to a lake. There is an island in the middle. Type \"wait\" or \"swim\". \n").lower()
+    
+    if action == "wait":
+        door = input("You arrive at the island unharmed. Choose a door: \"red\", \"yellow\", or \"blue\". \n").lower()
+        
+        if door == "yellow":
+            print("You found the treasure! You Win!")
+        elif door == "red":
+            print("It's a room full of fire. Game Over.")
+        else:
+            print("You enter a room of beasts. Game Over.")
+            
+    else:
+        print("You get attacked by an angry trout. Game Over.")
+        
+else:
+    print("You fell into a hole. Game over.")
+```
+
 
 
 
