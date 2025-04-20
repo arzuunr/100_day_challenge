@@ -281,11 +281,89 @@ elif player==computer:
     print("It is a draw!")
 ```
 
+### **Day 5: For Loops, Range & Password Generator**  
+**Aim:** Build a secure password generator using loops
 
+-Syntax refers to a concept in writing code dealing with a very specific set of words and a very specific order to those words when we give the computer instructions. This is why it is important when it comes to learning basic things in a fundamental syntax version.
 
+-Python is really number friendly.
 
+**For Loop Fundamentals**
+```python
+fruits = ["Apple", "Peach", "Pear"]
+for fruit in fruits:  # fruit becomes each item temporarily
+    print(len(fruit))  # Works on each fruit's length as letters
+# After loop: fruit retains last value ("Pear")
+```
+**Range** is not useful when it is not qualified with a loop.
 
+```python
+# Three forms of range():
+range(10)        # 0-9 (stop only)
+range(1, 10)     # 1-9 (start, stop)
+range(1, 10, 2)  # 1,3,5,7,9 (start, stop, step)
 
+# Gauss Summation Trick (1-100) german mathematician 101*100/2
+total = 0
+for num in range(1, 101):
+    total += num  # 5050
 
+# Gauss Summation (1-100)
+total = 0
+for num in range(1, 101):
+    total += num  # 5050
+```
 
+```python
+import random
+letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+symbols = ['!', '#', '$', '%', '&', '(', ')', '*', '+']
+
+print("Welcome to the PyPassword Generator!")
+nr_letters = int(input("How many letters would you like in your password?\n"))
+nr_symbols = int(input(f"How many symbols would you like?\n"))
+nr_numbers = int(input(f"How many numbers would you like?\n"))
+
+#Easy level
+password=""
+for char in range(0, nr_letters):
+    #random_char=random.choice(letters)
+    password+=random.choice(letters)
+    #print(random_char)
+#print(password)
+
+for char in range(0, nr_symbols):
+    password+=random.choice(symbols)
+
+#for char in range(1, nr_numbers+1): we changed it the 1-ones
+for char in range(0, nr_numbers):
+    password+=random.choice(numbers)
+#print(password)
+
+pass_list=[]
+for char in password:
+    pass_list+=char
+random.shuffle(pass_list)
+#print(pass_list)
+
+last_str=""
+for char in pass_list:
+    last_str+=char
+print(f"Your password is: {last_str}") #this is f string
+#print(last_str.join(pass_list))
+
+"""
+.shuffle works in list
+.join helps to turn list to string in an empty one 
+final_password = "".join(pass_list)
+
+range usage in a loop is crucial
+if there is numb unnecessary in both side plus 1 you can delete that while 
+in both sides doing -1
+you can use string concatenation = append or extend to an empty list
+password_lett = random.sample(letters, nr_letters)  # Directly pick 'n' random letters
+str_two=str.join(random.sample(pass_list,len(pass_list)))
+"""
+```
 
