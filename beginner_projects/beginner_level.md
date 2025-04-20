@@ -175,6 +175,111 @@ else:
 ```
 
 
+### **Day 4: Randomization & Python Lists**  
+**Aim:** Rock, Paper, Scissors game
+
+-Randomness related with games the most.
+
+-Computers, machines are deterministic; their operation is repeatable and predictable.
+
+-Pseudorandom generators crucial: randomness is nondeterminitistic in computing the valid case is what is possible and what is possible in a reasonable time.
+
+-Pseudorandom numbers vs Random walks
+
+-In computers randomness repeats eventually when it is huge amount seed * milisecond and take the middle of the result and after repetation that called period, due to the seed it might not visible in a long run.
+
+-Random module is a python module.
+
+-Each module is responsible for a different bit of functionality of your program and perfect for collaboration in a project ❤️.
+
+#coding is like an open book exam
+
+| Category              | Key Takeaways                                                                 | Code Example/Solution                          |
+|-----------------------|---------------------------------------------------------------------------|-----------------------------------------------|
+| **Random Module**     | `random.randint()` includes both bounds, `random.random()` gives float [0,1). Use `random.uniform()` for custom ranges. | `random.randint(1,6)` → Dice roll |
+| **Pseudorandomness**  | Computers use mathematical algorithms (Mersenne Twister) - deterministic but unpredictable without seed. Security depends on seed complexity. | `random.seed(42)` |
+| **Lists**            | Data structure, Ordered, mutable collections. Can mix data types. Zero-indexed with negative indices from end. | `my_list = ["a", 1, True]` |
+| **List Methods**     | `.append()` adds single item, `.extend()` merges lists, `len()` gets length. | `states.extend(["Puerto Rico"])` |
+| **Nested Lists**     | Lists can contain other lists. Access with multiple indices: `matrix[0][1]`. | `grid = [[1,2], [3,4]]` |
+| **Common Errors**    | `IndexError` when accessing non-existent indices. Always check `len()` first. | `print(states[50])` ❌ |
+
+### 🧠 Memory Nuggets
+```python
+# Create your module
+print(my_module.my_favorite_number)
+
+# Random float between 5-10
+random_float = random.uniform(5, 10)  
+
+# Select random item from list
+print(random.choice(friends))  
+
+# Shuffle list in-place
+random.shuffle(states_of_america)  
+
+# Nested list access
+print(fruits_and_veg[1][1])  # "Kale"
+```
+### Rock, Paper, Scissors Project
+
+```python
+
+import random
+
+rock = '''
+    _______
+---'   ____)
+      (_____)
+      (_____)
+      (____)
+---.__(___)
+'''
+
+paper = '''
+    _______
+---'   ____)____
+          ______)
+          _______)
+         _______)
+---.__________)
+'''
+
+scissors = '''
+    _______
+---'   ____)____
+          ______)
+       __________)
+      (____)
+---.__(___)
+'''
+game_ascii=[rock,paper,scissors]
+player=int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors. "))
+if player>=0 and player<=3:
+    print(game_ascii[player])
+else:
+    print("Undefined!")
+
+
+print("Computer choose:")
+computer=random.randint(0,2)
+if computer>=0 and computer<=2:
+    print(game_ascii[computer])
+
+if player>=3 or player<0:
+    print("You typed an invalid number. You lose!")
+elif player==0 and computer==2:
+    print("You won!")
+elif player==2 and computer==0:
+    print("Computer won!")
+
+elif computer > player:
+    print("Computer won!")
+elif player > computer:
+    print("You won!")
+
+elif player==computer:
+    print("It is a draw!")
+```
 
 
 
