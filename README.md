@@ -2,38 +2,62 @@
 
 **Udemy:** https://www.udemy.com/share/103IHM3@tqMulETgjYuxoCu7Y8nb0WwHEPUhhmNk1EebvMLs5DHyOKP4l_GT_jHmLEyAlxgl4g==/
 
-## 📌 Current Progress
-![Progress](https://progress-bar.dev/5/?title=Completed)  
-**Current Streak:** Day 1 → Day 5  
-**Last Updated:** August 20, 2023
+## Course Overview
+A rigorous 100-day program designed to transform beginners into professional Python developers through project-based learning. This curriculum covers full-stack development, data science, automation, and machine learning.
 
-## 🗂 Project Portfolio
-| Day | Project | Concepts Learned | Code Quality |
-|-----|---------|------------------|--------------|
-| 1 | [Band Name Generator](Day01/) | `print()`, `input()`, variables | [![CodeFactor](https://www.codefactor.io/repository/github/yourusername/100-days-python/badge)](https://www.codefactor.io/repository/github/yourusername/100-days-python) |
-| 2 | [Tip Calculator](Day02/) | Data types, rounding, type conversion | |
-| 3 | [Treasure Island](Day03/) | Conditional logic, nested ifs | |
-| 4 | [Rock Paper Scissors](Day04/) | Random module, lists | |
-| 5 | [Password Generator](Day05/) | For loops, string manipulation | |
+## Learning Objectives
 
-## 📚 Daily Learning Notes
-### Key Concepts Mastered
+### Core Competencies
+- **Programming Fundamentals**: Syntax, data structures, algorithms
+- **Web Development**: Flask, APIs, database integration
+- **Data Science**: Pandas, NumPy, Matplotlib, Scikit-learn
+- **Automation**: Selenium, Beautiful Soup, Requests
+- **GUI Development**: Tkinter, desktop applications
+
+### Technical Stack
+| Category | Technologies |
+|----------|--------------|
+| **Development** | Python 3.11, PyCharm, Jupyter Notebooks |
+| **Web** | Flask, HTML5, CSS3, Bootstrap, REST APIs |
+| **Data** | Pandas, NumPy, Seaborn, Plotly |
+| **Automation** | Selenium, BeautifulSoup, Requests |
+| **DevOps** | Git, GitHub, Heroku, GUnicorn |
+
+## Course Structure
+
+### Phase 1: Foundations (Days 1-30)
 ```python
-# Sample of documented learnings
-{
-  "Day1": ["String formatting", "Debugging techniques"],
-  "Day2": ["Float precision", "Memory management"],
-  "Day3": ["Logical operators", "Game flow design"],
-  "Day4": ["Pseudorandomness", "List methods"],
-  "Day5": ["Range function", "Password security"]
-}
-
-pie
-    title Technologies Used
-    "Core Python" : 45
-    "Web Scraping" : 15
-    "Data Science" : 20
-    "Automation" : 20
+# Sample Curriculum
+1. Python Syntax & Basic Constructs
+2. Object-Oriented Programming
+3. File I/O and Error Handling
+4. Web Scraping Fundamentals
 ```
+###Phase 2: Intermediate (Days 31-70)
+```python
+1. Database Integration (SQLite, PostgreSQL)
+2. Web Development with Flask
+3. Data Analysis with Pandas
+4. Automation Scripts
+```
+###Phase 3: Advanced (Days 71-100)
+```python
+1. Machine Learning Basics
+2. Production Deployment
+3. Performance Optimization
+4. Capstone Projects
+``
+
+
+
+
+
+
+
+
+
+
+
+
 
 
