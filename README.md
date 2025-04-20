@@ -33,20 +33,20 @@ A rigorous 100-day program designed to transform beginners into professional Pyt
 3. File I/O and Error Handling
 4. Web Scraping Fundamentals
 ```
-###Phase 2: Intermediate (Days 31-70)
+### Phase 2: Intermediate (Days 31-70)
 ```python
 1. Database Integration (SQLite, PostgreSQL)
 2. Web Development with Flask
 3. Data Analysis with Pandas
 4. Automation Scripts
 ```
-###Phase 3: Advanced (Days 71-100)
+### Phase 3: Advanced (Days 71-100)
 ```python
 1. Machine Learning Basics
 2. Production Deployment
 3. Performance Optimization
 4. Capstone Projects
-``
+```
 
 
 
