@@ -1,9 +1,147 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.4 Safari/605.1.15" version="27.1.1">
   <diagram name="Page-1" id="nZZlZ4wX85lgE4mtfiP-">
-    <mxGraphModel>
+    <mxGraphModel dx="946" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="3UIAw0wJv7h4F_L2P-lR-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3UIAw0wJv7h4F_L2P-lR-1" target="3UIAw0wJv7h4F_L2P-lR-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3UIAw0wJv7h4F_L2P-lR-1" value="START" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3UIAw0wJv7h4F_L2P-lR-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3UIAw0wJv7h4F_L2P-lR-2" target="3UIAw0wJv7h4F_L2P-lR-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3UIAw0wJv7h4F_L2P-lR-7" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3UIAw0wJv7h4F_L2P-lR-6">
+          <mxGeometry x="-0.2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3UIAw0wJv7h4F_L2P-lR-2" value="Ask the user if they want to play to game" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;shape=rhombus;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="195" y="170" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3UIAw0wJv7h4F_L2P-lR-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3UIAw0wJv7h4F_L2P-lR-5" target="3UIAw0wJv7h4F_L2P-lR-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3UIAw0wJv7h4F_L2P-lR-5" value="Get 2 &lt;i&gt;random&lt;/i&gt; cards per player (computer and user)" style="whiteSpace=wrap;html=1;rounded=1;arcSize=28;" vertex="1" parent="1">
+          <mxGeometry x="205" y="330" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3UIAw0wJv7h4F_L2P-lR-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3UIAw0wJv7h4F_L2P-lR-8" target="3UIAw0wJv7h4F_L2P-lR-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3UIAw0wJv7h4F_L2P-lR-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3UIAw0wJv7h4F_L2P-lR-8" target="3UIAw0wJv7h4F_L2P-lR-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3UIAw0wJv7h4F_L2P-lR-8" value="Reveal all user cards and one computer card" style="whiteSpace=wrap;html=1;rounded=1;arcSize=28;" vertex="1" parent="1">
+          <mxGeometry x="205" y="480" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3UIAw0wJv7h4F_L2P-lR-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3UIAw0wJv7h4F_L2P-lR-10" target="3UIAw0wJv7h4F_L2P-lR-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3UIAw0wJv7h4F_L2P-lR-14" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3UIAw0wJv7h4F_L2P-lR-13">
+          <mxGeometry x="-0.0892" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3UIAw0wJv7h4F_L2P-lR-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3UIAw0wJv7h4F_L2P-lR-10" target="3UIAw0wJv7h4F_L2P-lR-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3UIAw0wJv7h4F_L2P-lR-10" value="Detect if the user or computer has a blackjack (Ace + 10)" style="whiteSpace=wrap;html=1;rounded=1;arcSize=0;shape=rhombus;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="186.25" y="750" width="167.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="3UIAw0wJv7h4F_L2P-lR-12" value="If computer gets blackjack, then the user loses (even if the user also has a blackjack). If the user gets a blackjack, then they win (unless the computer also has a blackjack)." style="whiteSpace=wrap;html=1;rounded=1;arcSize=23;" vertex="1" parent="1">
+          <mxGeometry x="470" y="755" width="232.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3UIAw0wJv7h4F_L2P-lR-15" value="Calculate the user&#39;s and computer&#39;s scores based on their card values." style="whiteSpace=wrap;html=1;rounded=1;arcSize=28;" vertex="1" parent="1">
+          <mxGeometry x="205" y="630" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3UIAw0wJv7h4F_L2P-lR-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3UIAw0wJv7h4F_L2P-lR-17" target="3UIAw0wJv7h4F_L2P-lR-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3UIAw0wJv7h4F_L2P-lR-21" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3UIAw0wJv7h4F_L2P-lR-20">
+          <mxGeometry x="-0.0506" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3UIAw0wJv7h4F_L2P-lR-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3UIAw0wJv7h4F_L2P-lR-17" target="3UIAw0wJv7h4F_L2P-lR-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3UIAw0wJv7h4F_L2P-lR-24" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3UIAw0wJv7h4F_L2P-lR-23">
+          <mxGeometry x="-0.26" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3UIAw0wJv7h4F_L2P-lR-17" value="Ace is a drawn or lower than 21" style="whiteSpace=wrap;html=1;rounded=1;arcSize=0;shape=rhombus;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="186.25" y="930" width="167.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="3UIAw0wJv7h4F_L2P-lR-19" value="Count as 11" style="whiteSpace=wrap;html=1;rounded=1;arcSize=18;" vertex="1" parent="1">
+          <mxGeometry x="457.5" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3UIAw0wJv7h4F_L2P-lR-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3UIAw0wJv7h4F_L2P-lR-22" target="3UIAw0wJv7h4F_L2P-lR-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3UIAw0wJv7h4F_L2P-lR-22" value="Count as 1" style="whiteSpace=wrap;html=1;rounded=1;arcSize=22;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3UIAw0wJv7h4F_L2P-lR-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3UIAw0wJv7h4F_L2P-lR-25" target="3UIAw0wJv7h4F_L2P-lR-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3UIAw0wJv7h4F_L2P-lR-25" value="Reveal the first comp card to the user" style="whiteSpace=wrap;html=1;rounded=1;arcSize=22;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3UIAw0wJv7h4F_L2P-lR-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3UIAw0wJv7h4F_L2P-lR-27" target="3UIAw0wJv7h4F_L2P-lR-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3UIAw0wJv7h4F_L2P-lR-33" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3UIAw0wJv7h4F_L2P-lR-30">
+          <mxGeometry x="-0.2471" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3UIAw0wJv7h4F_L2P-lR-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3UIAw0wJv7h4F_L2P-lR-27" target="3UIAw0wJv7h4F_L2P-lR-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3UIAw0wJv7h4F_L2P-lR-34" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3UIAw0wJv7h4F_L2P-lR-32">
+          <mxGeometry x="-0.2" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3UIAw0wJv7h4F_L2P-lR-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3UIAw0wJv7h4F_L2P-lR-27" target="3UIAw0wJv7h4F_L2P-lR-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3UIAw0wJv7h4F_L2P-lR-39" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3UIAw0wJv7h4F_L2P-lR-35">
+          <mxGeometry x="-0.8111" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3UIAw0wJv7h4F_L2P-lR-40" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3UIAw0wJv7h4F_L2P-lR-35">
+          <mxGeometry x="0.6632" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3UIAw0wJv7h4F_L2P-lR-27" value="Cards total&amp;gt;21 or blackjack&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="205" y="1400" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3UIAw0wJv7h4F_L2P-lR-29" value="GAME OVER" style="whiteSpace=wrap;html=1;rounded=1;arcSize=32;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3UIAw0wJv7h4F_L2P-lR-31" value="Once the user is done and no longer wants to draw any more cards, let the computer play.&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=18;" vertex="1" parent="1">
+          <mxGeometry x="195" y="1670" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3UIAw0wJv7h4F_L2P-lR-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3UIAw0wJv7h4F_L2P-lR-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="1540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3UIAw0wJv7h4F_L2P-lR-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3UIAw0wJv7h4F_L2P-lR-36" target="3UIAw0wJv7h4F_L2P-lR-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3UIAw0wJv7h4F_L2P-lR-36" value="Ask the user if they want to get another card" style="rhombus;whiteSpace=wrap;html=1;rounded=1;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1540" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3UIAw0wJv7h4F_L2P-lR-41" value="Calculate the total" style="whiteSpace=wrap;html=1;rounded=1;arcSize=17;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1550" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
