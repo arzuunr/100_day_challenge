@@ -125,6 +125,9 @@
         <mxCell id="3UIAw0wJv7h4F_L2P-lR-29" value="GAME OVER" style="whiteSpace=wrap;html=1;rounded=1;arcSize=32;" vertex="1" parent="1">
           <mxGeometry x="420" y="1410" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="3UIAw0wJv7h4F_L2P-lR-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3UIAw0wJv7h4F_L2P-lR-31" target="3UIAw0wJv7h4F_L2P-lR-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="3UIAw0wJv7h4F_L2P-lR-31" value="Once the user is done and no longer wants to draw any more cards, let the computer play.&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=18;" vertex="1" parent="1">
           <mxGeometry x="195" y="1670" width="150" height="70" as="geometry" />
         </mxCell>
@@ -141,6 +144,21 @@
         </mxCell>
         <mxCell id="3UIAw0wJv7h4F_L2P-lR-41" value="Calculate the total" style="whiteSpace=wrap;html=1;rounded=1;arcSize=17;" vertex="1" parent="1">
           <mxGeometry x="430" y="1550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3UIAw0wJv7h4F_L2P-lR-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3UIAw0wJv7h4F_L2P-lR-43" target="3UIAw0wJv7h4F_L2P-lR-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3UIAw0wJv7h4F_L2P-lR-43" value="Compare user and computer scores and see if it&#39;s a win, loss, or draw." style="whiteSpace=wrap;html=1;rounded=1;arcSize=18;" vertex="1" parent="1">
+          <mxGeometry x="195" y="1820" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3UIAw0wJv7h4F_L2P-lR-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3UIAw0wJv7h4F_L2P-lR-45" target="3UIAw0wJv7h4F_L2P-lR-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3UIAw0wJv7h4F_L2P-lR-45" value="Print out the player&#39;s and computer&#39;s final hand and their scores at the end of the game." style="whiteSpace=wrap;html=1;rounded=1;arcSize=18;" vertex="1" parent="1">
+          <mxGeometry x="195" y="1970" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3UIAw0wJv7h4F_L2P-lR-47" value="After the game ends, ask the user if they&#39;d like to play again. Clear the console for a fresh start." style="whiteSpace=wrap;html=1;rounded=1;arcSize=18;" vertex="1" parent="1">
+          <mxGeometry x="195" y="2120" width="150" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
