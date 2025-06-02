@@ -22,5 +22,11 @@ git config user.email
 working file -git add-> index/staging -git commit-> local repository 
 
 ```bash
-git status
+git status --for checking if it is wroking on that file
+
+git init --if it is not working start it, always check git status first if you delete it with rmv -rf .git --you have to initialise again
+
+git commit -m "your message"
+
+git log
 ```
