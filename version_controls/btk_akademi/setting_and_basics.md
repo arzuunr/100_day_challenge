@@ -30,3 +30,13 @@ git commit -m "your message"
 
 git log
 ```
+### Secret File 
+
+-Dont put the local file this
+
+gitignore
+
+```bash
+touch .gitignore
+```
+#Next step: Go to file .gitignore and write your file that you want to add eg. "gizli.txt" and then save it
