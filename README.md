@@ -29,16 +29,16 @@ A rigorous 100-day program designed to transform beginners into professional Pyt
 ```python
 # Sample Curriculum
 1. Python Syntax & Basic Constructs
-2. Object-Oriented Programming
-3. File I/O and Error Handling
-4. Web Scraping Fundamentals
+2. File I/O and Error Handling
+3. Web Scraping Fundamentals
 ```
 ### Phase 2: Intermediate (Days 16-31)
 ```python
-1. Database Integration (SQLite, PostgreSQL)
-2. Web Development with Flask
-3. Data Analysis with Pandas
-4. Automation Scripts
+1. Object Oriented Programming
+2. Database Integration (SQLite, PostgreSQL)
+3. Web Development with Flask
+5. Data Analysis with Pandas
+6. Automation Scripts
 ```
 ### Phase 3: Advanced (Days 31-100)
 ```python
